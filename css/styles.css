@@ -1,0 +1,173 @@
+body {
+    /* background-color: #E4F9F5; */
+    /* margin-left: 0px;
+    margin-right: 0px; */
+    margin: 0px;
+    text-align: center; /*Aligns elements in the center, Alternatively, If an element has width property, set its left and right to auto 4 horizontal center, vice versa for vertical centering*/
+    /* padding-top: 100px; */
+    /* font-family: Helvetica Neue,Helvetica,Arial,sans-serif; */
+    font-family: 'Merriweather', serif;
+    color: #40514E;
+}
+
+h1 {
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    /*font-size: 90px; In percentages, 100% corresponds to '16px' and to '1em' also, there4 90px corresponds to 90/16 * 100% = 562.5%. Best to use rem as opposed to em or percentages to cut out errors*/
+    font-size: 5.625rem;
+    color: #66BFBF;
+    line-height: 2; /*Increases space between elements, both below and above the element with the property*/
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+
+hr  {
+    /* background-color: white; */
+    border-style: dotted none none;
+    border-color: #EAF6F6;
+    border-width: 15px;
+    /* border-top: dotted 1px white; */
+    height: 0px;
+    width: 15%;
+}
+
+p {
+    line-height: 2;
+}
+
+.bottom-cloud {
+    position: absolute; /*Absolute is the distance from the parent. While Relative is the distance from the original postion as per HTML inline and block rules. Absolute breaks the inline and block rules of HTML unlike relative which might just overlap other elements, whilst not breaking inline and block rules*/
+    left: 300px;
+    bottom: 300px;
+
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.pro {
+    text-decoration: underline; /*Span are use to edit inline elements, this for example can edit part of the text that is inline*/
+}
+
+.intro {
+    width: 30%;
+    margin: auto;
+}
+
+.top-container {
+    background-color: #E4F9F5;
+    position: relative;
+    padding-top: 100px;
+}
+
+.middle-container {
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    /* line-height: 5; */
+    padding: 50px 0 20px;
+}
+
+.footer-link {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    color: #EAF6F6;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 150px auto;
+    text-align: left; /*Overrides the text-align property in the body above*/
+    
+}
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999E);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999E);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999E);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999E);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999E);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+
+.code-img {
+    width: 25%;
+    float: left; /*Makes text wrap images on the left*/
+    margin-right: 30px;
+}
+
+.profile-img {
+    width: 15%;
+}
+
+.profile {
+    margin: 100px auto 100px auto;
+}
+
+.spider-img {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.spider-description {
+   /* clear:right; ===> Thought of as anti-float, undoes the effects of float. Making the text sit back below the image*/
+}
+
+.contact-me {
+    margin: 100px auto 100px auto;
+    line-height: 2;
+}
+
+.contact-message {
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+
+.skills {
+    margin-top: 100px;
+}
+
+.copyright {
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 40px 0;
+}
